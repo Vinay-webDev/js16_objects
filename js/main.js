@@ -1,25 +1,24 @@
 // objects = key-value pairs!! within curly braces
 
-//let myObject = {name: "Dude", age: 100, alive: true };
-/*
+let myObject = {name: "Dude", age: 100, alive: true };
+
 console.log(myObject.name);
 console.log(myObject.age);
 console.log(myObject.alive);
-*/
-/*
+
 console.log(myObject[name]);
 console.log(myObject[age]);
 console.log(myObject[alive]);
-*/
+
 // oh sh!t you need to use quotes***** 
-/*
+
 console.log(myObject["name"]);
 console.log(myObject["age"]);
 console.log(myObject["alive"]);
-*/
+
 ////////////////////////////////////////////////////////////////////////////////////////////
 // so let's create another object!!
-/*
+
 let anotherObject = {
     name: "Dude",
     age: 100,
@@ -38,10 +37,10 @@ console.log(anotherObject.hobbies[1]);
 console.log(anotherObject.hobbies[2]);
 console.log(anotherObject.bavarage.morning);
 console.log(anotherObject.bavarage.afternoon);
-*/
+
 ////////////////////////////////////////////////////////////////////////////
 // object = key-value pairs
-/*
+
 let myObject = {
     name: "Jack Bulwark",
     age: 100,
@@ -62,10 +61,10 @@ console.log(myObject["bavarages"]["afternoon"]);
 console.log(myObject.bavarages.afternoon);
 console.log(myObject.action());
 console.log(myObject["hobbies"][0]);
-*/
+
 ///////////////////////////////////////////////////////////////////////////////
 // Object 
-/*
+
 let myObject = {
     name: "Xian",
     age: 26,
@@ -81,10 +80,10 @@ let myObject = {
     // our object
 }
 console.log(myObject.action());
-*/
+
 ///////////////////////////////////////////////////////////
 // Inheritance!!
-/*
+
 const vehicle = {
     wheels: 4,
     engine: "vroom!"
@@ -95,10 +94,10 @@ truck.doors = 2,
 console.log(truck.doors);
 console.log(truck.wheels);
 console.log(truck.engine);
-*/
+
 ///////////////////////////////////////////////
 // Inheritance!! 
-/*
+
 const vehicle = {
     wheels: 4,
     engine: function() {
@@ -119,10 +118,10 @@ car.engine = function () {
 console.log(car.engine());
 console.log(car.wheels); // inheritance****
 console.log(car.doors);
-*/
+
 ////////////////////////////////////////////////////////////////////
 // inheritance!!!
-/*
+
 const vehicle = {
     wheels: 4,
     engine: function() {
@@ -142,10 +141,10 @@ Tesla.engine = function() {
     return "shssssr!";
 }
 console.log(Tesla.engine()); // it's own method****
-*/
+
 //////////////////////////////////////////////////////////////////////////////////////
 // inheritance!! 
-/*
+
 let animals = {
     alive: true,
     mobility: true,
@@ -168,10 +167,10 @@ console.log(mammal.mobility);
 console.log(mammal.brain);
 console.log(mammal.action.land);
 console.log(mammal.action.sea);
-*/
+
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // another example!!!*************
-/*
+
 let series = {
     peakyBlinders: "TomShelby",
     gameOfThrones: "JohnSnow",
@@ -185,10 +184,10 @@ console.log(Object.values(series));
 for (let title in series) {
     console.log(`On ${title} ${series[title]} is my is my favorite character!`);
 }
-*/
+
 ///////////////////////////////////////////////////////////////////////////////////////
 // so let's create again!!
-/*
+
 let movieAndHero = {
     captainAmerica: "ChrisEvans",
     ironMan: "RobertDowneyJr",
@@ -197,18 +196,18 @@ let movieAndHero = {
 }
 console.log(Object.keys(movieAndHero));
 console.log(Object.values(movieAndHero));
-*/
+
 /////////////////////////////////////////////////
-/*
+
 for (let x in movieAndHero) {
     console.log(x);// to return keys***
     console.log(movieAndHero[x]);// to return values***
 }
 // **** in for loop it excutes one by one ****
 // that's why we see one movie name followed by one hero name
-*/
+
 ////////////////////////////////////////////////////////////////
-/*
+
 let movieAndHero = {
     captainAmerica: "ChrisEvans",
     ironMan: "RobertDowneyJr",
@@ -221,11 +220,11 @@ console.log(Object.values(movieAndHero));
 for (let x in movieAndHero) {
     console.log(`this ${x} movie hero is ${movieAndHero[x]}!`);
 }
-*/
+
 ///////////////////////////////////////////////////////////////////////
 /* attributes, methods, how to delete elements or attributes 
 or methods, how to check any property */
-/*
+
 let movieAndHero = {
     captainAmerica: "ChrisEvans",
     ironMan: "RobertDowneyJr",
@@ -248,10 +247,10 @@ for (let x in movieAndHero) {
     console.log(movieAndHero[x]);
     console.log(`this ${x} movie hero is ${movieAndHero[x]}!`);
 }
-*/
+
 ///////////////////////////////////////////
 // to delete any attribute or methods or elements*** to check hasOwnProperty */
-/*
+
 let movieAndHero = {
     captainAmerica: "ChrisEvans",
     ironMan: "RobertDowneyJr",
@@ -270,10 +269,10 @@ for (let x in movieAndHero) {
     console.log(movieAndHero[x]);
     console.log(`this ${x} movie hero is ${movieAndHero[x]}!`);
 }
-*/
+
 ////////////////////////////////////////////////////////////////////
 // destructuring objects 
-/*
+
 const movieAndHero = {
     captainAmerica: "ChrisEvans",
     ironMan: "RobertDowneyJr",
@@ -291,10 +290,10 @@ console.log(captainAmerica);
 console.log(ironMan);
 console.log(guardiansOfTheGalaxy);
 console.log(blackPanther);
-*/
+
 /////////////////////////////////////////////////////////////////////
 // destructuring objects********
-/*
+
 const movieAndHero = {
     captainAmerica: "ChrisEvans",
     ironMan: "RobertDowneyJr",
@@ -311,11 +310,11 @@ function sings({captainAmerica}) {
     return `this ${captainAmerica} sings!`; // now it is pulling value
 }
 console.log(sings(movieAndHero));
-*/
+
 ///////////////////////////////////////////////////////////////
 // recal***
 // object - inheritance!
-/*
+
 const vehicle = {
     wheels: 4,
     engine: "vroom!"
@@ -334,11 +333,11 @@ car.engine = function() {
 
 console.log(car.engine());
 console.log(car.wheels); // inherited!! by vehicle object***
-*/
+
 ////////////////////////////////////////////////
 // recal 
 // delete, hasOwnProperty, for in loop*****
-/*
+
 const movieAndHero = {
     captainAmerica: "SteveRogers",
     ironMan: "TonyStark",
@@ -361,28 +360,28 @@ for (let x in movieAndHero) {
 for (let x in movieAndHero) {
     console.log(movieAndHero[x]);
 }
-*/
+
 ////////////////////////////////////////////////////////////////////////////////
 // destructuring objects!!!
-/*
+
 const capitals = {
     india: "new dehli",
     america: "washington DC",
     uk: "london",
     japan: "tokyo",
 }
-/*
+
 const {india: myVariable1, america: myVariable2} = capitals;
 console.log(myVariable1);
 console.log(myVariable2);
 console.log(capitals.india);
-*/
-/*
+
+
 for (let x in capitals) {
     console.log(capitals[x]);
-}*/
+}
 ////////////////////////////
-/*
+
 const capitals = {
     india: "new dehli",
     america: "washington DC",
@@ -394,7 +393,7 @@ function capital({india}) {
     return`the capital of india is ${india}`;
 }
 console.log(capital(capitals));
-*/
+
 ////////////////////////////////////////////
 
 
